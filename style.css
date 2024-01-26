@@ -96,6 +96,8 @@ p{
 .info-con{
     display:flex;
     flex-direction:row;
+    justify-content:center;
+    gap:32px;
 }
 .info{
     display:flex;
@@ -117,6 +119,8 @@ p{
     text-align:center;
     color:#1F2937;
     flex-wrap:wrap;
+    overflow-wrap: break-word;
+    inline-size: 150px;   
 }
 .title{
     display:flex;
